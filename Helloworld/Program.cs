@@ -13,6 +13,9 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+            TakingUserInput takingUserInput = new TakingUserInput();
+            takingUserInput.userInput();
+
             Numbers numbers = new Numbers();
             numbers.learnNumber();
 
