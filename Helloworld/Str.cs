@@ -14,6 +14,9 @@ namespace Helloworld
             Console.WriteLine(str);
             Console.WriteLine(str.ToLower());
             Console.WriteLine(str.ToUpper());
+            Console.WriteLine(str.IndexOf("h"));
+            Console.WriteLine(str.Substring(2));
+            Console.WriteLine(str.Substring(2,4));
         }
     }
 }
