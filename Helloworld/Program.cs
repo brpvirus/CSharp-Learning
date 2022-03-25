@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Helloworld
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+            Variables variables = new Variables();
+            variables.learnVariable();
             Console.ReadLine();
         }
     }
