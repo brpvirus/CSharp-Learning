@@ -10,6 +10,7 @@ namespace Helloworld
     {
         public void learnVariable()
         {
+            Console.WriteLine("------Variables------");
             string personName = "Bhavik Prajapati";
             int personAge = 22;
             string companyName = "Infopercept";

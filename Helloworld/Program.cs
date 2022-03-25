@@ -10,7 +10,11 @@ namespace Helloworld
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
+
+            Numbers numbers = new Numbers();
+            numbers.learnNumber();
 
             Str ss = new Str();
             ss.learnStr();

@@ -10,6 +10,7 @@ namespace Helloworld
     {
         public void learnStr()
         {
+            Console.WriteLine("------Strings------");
             string str = "Bhavik";
             Console.WriteLine(str);
             Console.WriteLine(str.ToLower());
