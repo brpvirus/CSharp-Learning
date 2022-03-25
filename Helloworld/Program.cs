@@ -13,6 +13,9 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+            Arrayss arr = new Arrayss();
+            arr.learnArray();
+
             TakingUserInput takingUserInput = new TakingUserInput();
             takingUserInput.userInput();
 
