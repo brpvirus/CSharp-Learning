@@ -11,8 +11,13 @@ namespace Helloworld
         public static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
+
+            Str ss = new Str();
+            ss.learnStr();
+
             Variables variables = new Variables();
             variables.learnVariable();
+
             Console.ReadLine();
         }
     }
