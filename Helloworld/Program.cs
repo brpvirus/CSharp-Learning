@@ -13,6 +13,9 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+            Methods methods = new Methods();
+            methods.learnMethods();
+
             Arrayss arr = new Arrayss();
             arr.learnArray();
 
