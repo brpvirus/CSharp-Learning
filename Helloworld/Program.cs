@@ -13,6 +13,10 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+
+            GuessingGame guessingGame = new GuessingGame();
+            guessingGame.playGame();
+
             Looping looping = new Looping();
             looping.learningLoops();
 
