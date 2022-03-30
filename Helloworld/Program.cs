@@ -13,6 +13,10 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+            SwitchStatement switchStatement = new SwitchStatement();
+            switchStatement.learnSwitchStatement();
+
+
             DecisionMaking decisionMaking = new DecisionMaking();
             decisionMaking.learnDecisionMaking(10, 20, 30);
             decisionMaking.learnDecisionMaking(20, 10, 5);
