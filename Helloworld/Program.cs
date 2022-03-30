@@ -13,6 +13,9 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+            Looping looping = new Looping();
+            looping.learningLoops();
+
             SwitchStatement switchStatement = new SwitchStatement();
             switchStatement.learnSwitchStatement();
 
