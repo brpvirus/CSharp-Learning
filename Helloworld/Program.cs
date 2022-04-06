@@ -13,6 +13,11 @@ namespace Helloworld
             Console.WriteLine("------Main------");
             Console.WriteLine("Hello world");
 
+            ExceptionHandling exceptionHandling = new ExceptionHandling();
+            exceptionHandling.learningExcetionHandling();
+
+            TwoDimArrays twoDimArrays = new TwoDimArrays();
+            twoDimArrays.learnTwoDimensionalArray();
 
             GuessingGame guessingGame = new GuessingGame();
             guessingGame.playGame();
